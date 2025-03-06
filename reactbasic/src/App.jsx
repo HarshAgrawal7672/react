@@ -1,12 +1,14 @@
 
 import './App.css'
+import Card from './components/card.jsx'
 
 function App() {
  
-
   return (
     <>
-      <p>hello i am making my first react app</p>
+      <Card title="harsh" />
+      <Card title="sneha"/>
+      <Card title="sonu"/>
     </>
   )
 }
