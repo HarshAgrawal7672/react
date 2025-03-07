@@ -8,7 +8,7 @@ const card = (props) => {
       <div className='card'>
         <img id="profile" src={profile} alt="Card" />
         <h2 id='usertitle' className='text-xl'>{props.title}</h2>
-        <p id='userdescription'>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p id='userdescription' className='text-4xl'>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
     </div>
   )
